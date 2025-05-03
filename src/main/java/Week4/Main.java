@@ -13,6 +13,10 @@ public class Main {
 
         buddy.bark();
 
+        System.out.println(Dog.count);
+        System.out.println(Dog.getCount());
     }
 
+
 }
+
