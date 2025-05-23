@@ -1,3 +1,5 @@
+package Methods;
+
 public class PrintNumbers {
 
     public static void printTree(int n) {

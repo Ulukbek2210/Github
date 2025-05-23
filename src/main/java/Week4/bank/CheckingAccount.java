@@ -1,4 +1,4 @@
-package bank;
+package Week4.bank;
 
 public class CheckingAccount {
     public double balance;
