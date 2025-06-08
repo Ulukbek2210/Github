@@ -1,10 +1,10 @@
-package Week4.abstract_classes;
+package week5.examples;
 
 public abstract class Animal {
 
     protected String name;
-    Animal () {
-        this.name = name;
+    public Animal(String name) {
+        this.name = this.name;
     }
     abstract void makesound();
 

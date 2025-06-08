@@ -2,19 +2,14 @@ package Week4;
 
 public class Main {
     public static void main(String[] args){
-        Dog Bobby = new Dog();
-        Bobby.name = "Bobby ";
+        Dog bobby = new Dog("Bobby");
+        bobby.bark();
 
-        Bobby.bark();
-
-
-        Dog buddy = new Dog();
-        buddy.name = "Buddy ";
-
+        Dog buddy = new Dog("Buddy");
         buddy.bark();
 
-        System.out.println(Dog.count);
-        System.out.println(Dog.getCount());
+
+
     }
 
 

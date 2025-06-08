@@ -1,4 +1,4 @@
-package Week4.bank;
+package Week4.zoo;
 
 public class Main {
     public static void main(String[] args){
