@@ -1,6 +1,6 @@
 package Week4;
 
-public class Dog {
+public class Dog extends Animal {
 
     static {
         count = 100;
