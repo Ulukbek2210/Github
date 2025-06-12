@@ -1,4 +1,4 @@
-package Week4;
+package Week4.zoo;
 
 public class Dog extends Animal {
 

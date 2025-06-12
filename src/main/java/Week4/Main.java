@@ -1,5 +1,7 @@
 package Week4;
 
+import Week4.zoo.Dog;
+
 public class Main {
     public static void main(String[] args){
        Dog bobby = new Dog("Bobby");

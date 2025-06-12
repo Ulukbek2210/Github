@@ -1,13 +1,15 @@
 package Week4.zoo;
 
 public class Main {
-    public static void main(String[] args){
-        CheckingAccount myAccount = new CheckingAccount(0);
+    public static void main(String[] args) {
+        Cat Alba = new Cat("Alba");
+        Alba.meow();
 
-        myAccount.deposit((50));
-        //...
-        myAccount.withdraw(20);
-        //...
-        System.out.println(myAccount.balance);
+
+        Cat Jose = new Cat("Jose");
+        Jose.meow();
+
+        System.out.println((Cat.count));
+        System.out.println(Cat.getCount());
     }
 }
