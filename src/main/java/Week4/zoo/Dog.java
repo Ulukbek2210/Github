@@ -2,28 +2,11 @@ package Week4.zoo;
 
 public class Dog extends Animal {
 
-    static {
-        count = 100;
-        System.out.println(getCount());
-    }
-
-
-
-    public String name;
-    public static int count;
-
     public Dog (String name) {
         this.name = name;
+
     }
-
-    public void bark() {
-
+    public void makeSound(){
         System.out.println(this.name + " barked!");
-        count++;
-    }
-
-    public static int getCount(){
-        return count;
-
     }
 }
