@@ -2,7 +2,7 @@ package Week4.zoo;
 
 import java.security.PublicKey;
 
-public class Cat {
+public class Cat extends Animal{
 
     static {
         count = 100;
@@ -17,7 +17,6 @@ public class Cat {
         this.name = name;
 
     }
-
 
     public void meow(){
 
